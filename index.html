@@ -1,34 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-
+    <title>Keystatus by deavmi</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-     <title>KeyStatus | The awesome keyboard accessibility application</title>
   </head>
-
   <body>
-    <header>
-      <div class="inner">
-        <h1>KeyStatus</h1>
-        <h2>The awesome keyboard accessibility application.</h2>
-       <a href="https://github.com/deavmi/KeyStatus" class="button"><small>View KeyStatus on</small>GitHub</a>
-      </div>
-    </header>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h1>
+      <header>
+        <h1>Keystatus</h1>
+        <p>The awesome keyboard accessibility application.</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/deavmi/KeyStatus" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/deavmi/KeyStatus/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/deavmi/KeyStatus/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h1>
 <a name="welcome-to-the-keystatus-page" class="anchor" href="#welcome-to-the-keystatus-page"><span class="octicon octicon-link"></span></a>Welcome to the KeyStatus Page</h1>
 
 <h2>
@@ -57,11 +68,23 @@
 <h2>
 <a name="downloads" class="anchor" href="#downloads"><span class="octicon octicon-link"></span></a>Downloads</h2>
 
+<h3>
+<a name="application" class="anchor" href="#application"><span class="octicon octicon-link"></span></a>Application</h3>
+
 <ul>
 <li><a href="https://sites.google.com/site/filehostingservice000/home/deavmi/keystatus/keystatus.zip?attredirects=0&amp;d=1">KeyStatus Binary for 32-Bit</a></li>
-<li><a href="https://github.com/deavmi/KeyStatus/zipball/master">KeyStatus Source Code (.zip)</a></li>
-<li><a href="https://github.com/deavmi/KeyStatus/tarball/master">KeyStatus Source Code (.tar.gz)</a></li>
-</ul><h2>
+<li><a href="https://sites.google.com/site/filehostingservice000/home/deavmi/keystatus/keystatus-64.zip?attredirects=0&amp;d=1">Havok Binary for 64-Bit</a></li>
+</ul><h3>
+<a name="source-code" class="anchor" href="#source-code"><span class="octicon octicon-link"></span></a>Source code</h3>
+
+<ul>
+<li><a href="https://github.com/deavmi/KeyStatus/zipball/master">Havok Source Code for 32-Bit (.zip)</a></li>
+<li><a href="https://github.com/deavmi/KeyStatus/tarball/master">Havok Source Code for 32-Bit (.tar.gz)</a></li>
+<li><a href="https://github.com/deavmi/KeyStatus/zipball/master64">Havok Source Code for 64-Bit (.zip)</a></li>
+<li><a href="https://github.com/deavmi/KeyStatus/tarball/master64">Havok Source Code for 64-Bit (.tar.gz)</a></li>
+</ul><p>NOTICE: Nightly builds are only in 32-Bit unless we have an avid buildslave around with a 64-Bit machine.</p>
+
+<h2>
 <a name="changelog" class="anchor" href="#changelog"><span class="octicon octicon-link"></span></a>Changelog</h2>
 
 <p>Initial release - 1.0.0.0</p>
@@ -98,28 +121,13 @@
 <a name="feedback" class="anchor" href="#feedback"><span class="octicon octicon-link"></span></a>Feedback</h2>
 
 <p>Leave all your feedback below, or anything you want to say about this project.</p>
-        </section>
-
-       <aside id="sidebar">
-        <a href="https://sites.google.com/site/filehostingservice000/home/deavmi/keystatus/keystatus.zip?attredirects=0&d=1" class="button"> 
-        <small> Executable </small>
-        32-Bit
-          </a>
-          <a href="https://github.com/deavmi/KeyStatus/zipball/master" class="button">
-            <small>Source Code</small>
-            .zip file
-          </a>
-          <a href="https://github.com/deavmi/KeyStatus/tarball/master" class="button">
-            <small>Source Code</small>
-            .tar.gz file
-          </a>
-          <p class="repo-owner"><a href="https://github.com/deavmi/KeyStatus"></a> KeyStatus is maintained by <a href="https://deavmi.github.io/Deavmi">Deavmi</a>.</p>
-          <p>Proudly hosted at  <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-          <p>Copyright (C) KeyStatus 2013. All Rights Reserved. KeyStatus is a registered trademark of <a href="http://deavmi.github.io/Deavmi">Deavmi</a></p>
-        </aside>
-      </div>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/deavmi">deavmi</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
     </div>
-
-  
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
   </body>
 </html>
